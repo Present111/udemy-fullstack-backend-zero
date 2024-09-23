@@ -8,7 +8,6 @@ const router = express.Router();
 
 router.get('/', getHomepage);
 
-
 router.get('/abc', getABC);
 
 router.get('/present111', getPresent111)
