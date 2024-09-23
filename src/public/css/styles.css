@@ -35,3 +35,25 @@
     background-color: #04AA6D;
     color: white;
 }
+
+.form {
+    width: 500;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-add-new {
+    width: 500px;
+    margin: 0 auto;
+
+    padding-top: 100px;
+}
+
+.input-group {
+    padding: 10px;
+}
+
+button {
+    margin: 10px;
+    cursor: pointer;
+}
