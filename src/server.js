@@ -13,7 +13,8 @@ const hostname = process.env.HOST_NAME;
 
 //config template engine
 configViewEngine(app);
-
+app.use(express.json()); // Used to parse JSON bodies
+app.use(express.urlencoded({ extended: true }));
 //khai bao route
 app.use('/', webRoutes);
 
