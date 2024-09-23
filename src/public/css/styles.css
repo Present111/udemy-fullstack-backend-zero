@@ -57,3 +57,13 @@ button {
     margin: 10px;
     cursor: pointer;
 }
+
+.table-contaier {
+    padding: 15px 20px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 600px;
+    padding-bottom: 10px;
+}
